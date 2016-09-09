@@ -1,3 +1,9 @@
+# Produced object file
+haze
+
+# Sublime text files
+*.sublime-*
+
 # Compiled Object files
 *.slo
 *.lo
