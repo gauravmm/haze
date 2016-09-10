@@ -7,6 +7,9 @@ TESTFILE= haze_test.o
 
 all: haze
 
+install: haze
+	cp ./haze /usr/local/bin/
+
 run: haze
 	./haze
 
