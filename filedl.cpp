@@ -7,7 +7,7 @@
 static size_t callback(void *contents, size_t size, size_t nmemb, void *userp){
 	string *s = (string *)userp;
 	size_t realsize = size * nmemb;
-	s->append((char *)contents);
+	s->append((char *)contents, realsize);
 	return realsize;
 }
 

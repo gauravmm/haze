@@ -12,7 +12,7 @@ using namespace std;
 #define HAZE_API_URL "http://api.nea.gov.sg/api/WebAPI/?dataset=psi_update&keyref="
 
 // Type of value to pull
-#define NEA_PSI_TYPE "NPSI"
+extern const string NEA_PSI_TYPE;
 
 // Valid region checker
 extern string NEA_REGION_DEFAULT;
