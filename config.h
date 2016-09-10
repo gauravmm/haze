@@ -9,7 +9,7 @@
 
 using namespace std;
 
-#define HAZE_API_URL "http://api.nea.gov.sg/api/WebAPI/?dataset=psi_update&keyref=%s"
+#define HAZE_API_URL "http://api.nea.gov.sg/api/WebAPI/?dataset=psi_update&keyref="
 
 // Type of value to pull
 #define NEA_PSI_TYPE "NPSI"
