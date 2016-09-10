@@ -1,7 +1,6 @@
 // hazecalc.cpp
 // Here we calculate the haze using NEA Haze tables.
 
-#include <iostream>
 #include "hazecalc.h"
 
 const map<string, const vector<float>> HazeCalc::NEA_HAZE_TABLE = {
