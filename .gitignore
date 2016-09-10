@@ -2,6 +2,9 @@
 haze
 haze_test
 
+# XML Library
+tinyxml2.*
+
 # Catch testing framework
 catch.hpp
 
