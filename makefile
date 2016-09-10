@@ -1,6 +1,6 @@
 CC      = g++
 CXXFLAGS= -std=c++11 -Wall -Werror 
-LDFLAGS = 
+LDFLAGS = -L/usr/lib/x86_64-linux-gnu -lcurl
 OFILES  = config.o hazecalc.o cmd.o
 MAINFILE= haze.o
 TESTFILE= haze_test.o
