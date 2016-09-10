@@ -1,5 +1,9 @@
 # Produced object file
 haze
+haze_test
+
+# Catch testing framework
+catch.hpp
 
 # Sublime text files
 *.sublime-*
