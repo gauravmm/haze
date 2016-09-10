@@ -1,7 +1,7 @@
 CC      = g++
 CXXFLAGS= -std=c++11 -Wall -Werror 
 LDFLAGS = -L/usr/lib/x86_64-linux-gnu -lcurl
-OFILES  = config.o hazecalc.o cmd.o tinyxml2.o
+OFILES  = config.o hazecalc.o cmd.o tinyxml2.o filedl.o
 MAINFILE= haze.o
 TESTFILE= haze_test.o
 
