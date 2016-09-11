@@ -1,3 +1,16 @@
+# Produced object file
+haze
+haze_test
+
+# XML Library
+tinyxml2.*
+
+# Catch testing framework
+catch.hpp
+
+# Sublime text files
+*.sublime-*
+
 # Compiled Object files
 *.slo
 *.lo
